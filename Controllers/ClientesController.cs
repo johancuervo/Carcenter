@@ -60,7 +60,6 @@ namespace ServicioCar.Controllers
                         clientedb.Direccion = cliente.direccion;
                         clientedb.Correo = cliente.correo;
                         db.Clientes.Add(clientedb);
-
                         db.SaveChanges();
                         oR.Success = 1;
                     }
